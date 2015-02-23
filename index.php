@@ -102,7 +102,7 @@
 			</a>
 				</div>
 
-			<h1>Bootstrap Stuff</h1>
+			<h1 class="h1">Bootstrap Stuff</h1>
 
 		</div>
 

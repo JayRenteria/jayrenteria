@@ -18,12 +18,17 @@ body {
 	background-color: #373737;
 }
 
+.h1 {
+	color: ghostwhite;
+}
+
 .row {
 	margin-top: 20px;
 }
 
 .row2 {
 	margin-top: 35px;
+	color: ghostwhite;
 }
 
 
