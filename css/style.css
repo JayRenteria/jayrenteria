@@ -51,3 +51,8 @@ body {
 	padding-left: 15px;
 }
 
+.carousel-inner > .item > img{
+	width:1150px;
+	height:600px;
+}
+
