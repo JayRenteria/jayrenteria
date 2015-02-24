@@ -1,6 +1,6 @@
 <?php
-require_once("php/header.php");
-require_once("php/footer.php");
+require_once("php/lib/header.php");
+require_once("php/lib/footer.php");
 ?>
 
 <div class="container">
