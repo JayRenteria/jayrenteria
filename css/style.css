@@ -58,6 +58,14 @@ body {
 	margin-top:1px;
 }
 
+#music-nav {
+	color: ghostwhite;
+}
+
+.tab-pane {
+	color: ghostwhite;
+}
+
 .container .text-muted {
 	margin: 20px 0;
 	color: darkgrey;
