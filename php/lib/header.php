@@ -5,6 +5,9 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
 		<meta name="viewport" content="width=device-width, initial-scale=1"/>
 
+		<!-- Font Awesome CSS -->
+		<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
 		<!-- Bootstrap Latest compiled and minified CSS -->
 		<link type="text/css" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css" rel="stylesheet"/>
 
@@ -51,9 +54,21 @@
 				<!-- Collect the nav links, forms, and other content for toggling -->
 				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 					<ul class="nav navbar-nav">
-						<li><a href="#">Home</a></li>
-						<li><a href="#">Music</a></li>
-						<li><a href="#">Contact</a></li>
+						<li>
+							<p class="navbar-btn">
+								<a href="../../index.php" class="btn btn-default">Home</a>
+							</p>
+						</li>
+						<li>
+							<p class="navbar-btn">
+								<a href="../../music/index.php" class="btn btn-default">Music</a>
+							</p>
+						</li>
+						<li>
+							<p class="navbar-btn">
+								<a href="../../contact/index.php" class="btn btn-default">Contact</a>
+							</p>
+						</li>
 					</ul>
 				</div><!-- /.navbar-collapse -->
 			</div><!-- /.container-fluid -->
