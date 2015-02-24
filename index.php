@@ -39,16 +39,24 @@ require_once("php/lib/footer.php");
 				<span class="sr-only">Next</span>
 			</a>
 				</div>
+	</div>
 
-			<h1 class="h1">Bootstrap Stuff</h1>
-
+		<div class="container">
+			<h1 class="h1">Jay Renteria</h1>
 		</div>
 
 			<!--Content Below-->
 		<div class="container">
 			<div class="row2">
-				<div class="col-md-5">5 Size Filler Text 5 Size Filler Text 5 Size Filler Text 5 Size Filler Text 5 Size Filler Text 5 Size Filler Text 5 Size Filler Text 5 Size Filler Text 5 Size Filler Text 5 Size Filler Text 5 Size Filler Text 5 Size Filler Text 5 Size Filler Text 5 Size Filler Text 5 Size Filler Text 5 Size Filler Text 5 Size Filler Text </div>
-				<div class="col-md-2">2 size filler text 2 size filler text </div>
-				<div class="col-md-5">5 size filler text 5 size filler text 5 size filler text 5 size filler text 5 size filler text 5 size filler text 5 size filler text 5 size filler text 5 size filler text 5 size filler text 5 size filler text 5 size filler text 5 size filler text 5 size filler text 5 size filler text 5 size filler text 5 size filler text </div>
+				<div id="bottom-left-content" class="col-md-5">
+					<p>Developer by day, musician by night.</p>
+					<p>My name is Jay, I play in a band called Rogues Beware and make more music on my own.</p>
+				</div>
+				<div class="col-md-1"></div>
+				<div class="col-md-6">
+					<form class="form-inline" method="post" action="music/index.php">
+						<input  id="music-button" class="form-control" type="submit" value="Check out my Music!">
+					</form>
+				</div>
 			</div>
 		</div>

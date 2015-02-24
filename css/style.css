@@ -7,7 +7,7 @@ html {
 body {
 	/* Margin bottom by footer height */
 	margin-bottom: 60px;
-	background-image: url("../images/background.jpg");
+	background-image: url("../images/background-compressed.jpg");
 }
 .footer {
 	position: absolute;
@@ -31,12 +31,13 @@ body {
 	color: ghostwhite;
 }
 
-.col-md-5 {
+#bottom-left-content {
 	background-color: #373737;
 }
 
-.col-md-2 {
-	background-color: #373737;
+#music-button {
+	height: 100px;
+	width: 500px;
 }
 
 
@@ -48,25 +49,44 @@ body {
 	margin-top:1px;
 }
 
-/* Custom page CSS
--------------------------------------------------- */
-/* Not required for template or sticky footer method. */
-
-
 .container .text-muted {
 	margin: 20px 0;
 	color: darkgrey;
 }
-
-
 
 .footer > .container {
 	padding-right: 15px;
 	padding-left: 15px;
 }
 
-.carousel-inner > .item > img{
-	width:1150px;
-	height:600px;
-}
+/*Carousel Section*/
 
+/*this will adjust the images to be consistent*/
+.carousel-inner > .item > img{
+	width:950px;
+	height:500px;
+}
+/*sets desktop size*/
+@media (min-width: 1024px) {
+	#carousel-example-generic {
+		width: 950px;
+		height: 500px;
+		margin: 0 auto;
+	}
+}
+/*mobile*/
+@media (max-width: 767px) {
+	#carousel-example-generic {
+		height: auto;
+		margin-top: 50px;
+	}
+	.carousel-inner > .item > img {
+		height: auto;
+	}
+	#music-button {
+		height: 50px;
+		width: 300px;
+		margin-top: 30px;
+		margin-bottom: 30px;
+	}
+}

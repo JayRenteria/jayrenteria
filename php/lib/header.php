@@ -50,18 +50,10 @@
 
 				<!-- Collect the nav links, forms, and other content for toggling -->
 				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-					<ul class="nav navbar-nav navbar-right">
-						<li><a href="#">Portfolio</a></li>
-						<li class="dropdown">
-							<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">More..<span class="caret"></span></a>
-							<ul class="dropdown-menu" role="menu">
-								<li><a href="#">Music</a></li>
-								<li><a href="#">Biography</a></li>
-								<li><a href="#">Gallery</a></li>
-								<li class="divider"></li>
-								<li><a href="#">Contact Me</a></li>
-							</ul>
-						</li>
+					<ul class="nav navbar-nav">
+						<li><a href="#">Home</a></li>
+						<li><a href="#">Music</a></li>
+						<li><a href="#">Contact</a></li>
 					</ul>
 				</div><!-- /.navbar-collapse -->
 			</div><!-- /.container-fluid -->
