@@ -31,9 +31,17 @@ body {
 	color: ghostwhite;
 }
 
+.col-md-5 {
+	background-color: #373737;
+}
+
+.col-md-2 {
+	background-color: #373737;
+}
+
 
 .navbar{
-	height: 100px;
+	height: 70px;
 }
 
 .navbar-brand>img{
