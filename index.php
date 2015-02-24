@@ -54,9 +54,9 @@ require_once("php/lib/footer.php");
 				</div>
 				<div class="col-md-1"></div>
 				<div class="col-md-6">
-					<form class="form-inline" method="post" action="music/index.php">
-						<input  id="music-button" class="form-control" type="submit" value="Check out my Music!">
-					</form>
+					<a id="music-button" class="btn btn-lg" href="music/index.php">
+						<i class="fa fa-headphones fa-2x pull-left"></i> Check Out My Music</a>
+
 				</div>
 			</div>
 		</div>
