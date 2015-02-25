@@ -7,10 +7,10 @@ require_once("../php/lib/header.php");
 <div class="container">
 	<div class="content">
 	<ul id="music-nav" class="nav nav-tabs nav-justified navbar-inverse" data-tabs="tabs">
-		<li role="presentation" class="active"><a href="#rogues" data-toggle="tab">Rogues Beware</a></li>
-		<li role="presentation"><a href="#metal" data-toggle="tab">Metal</a></li>
-		<li role="presentation"><a href="#electronic" data-toggle="tab">Electronic</a></li>
-		<li role="presentation"><a href="#sketches" data-toggle="tab">Sketches/WIP</a></li>
+		<li role="presentation" class="active"><a id="rog-tab" href="#rogues" data-toggle="tab">Rogues Beware</a></li>
+		<li role="presentation"><a id="metal-tab" href="#metal" data-toggle="tab">Metal</a></li>
+		<li role="presentation"><a  id="elec-tab" href="#electronic" data-toggle="tab">Electronic</a></li>
+		<li role="presentation"><a id="sketch-tab" href="#sketches" data-toggle="tab">Sketches/WIP</a></li>
 	</ul>
 
 	<div class="tab-content">

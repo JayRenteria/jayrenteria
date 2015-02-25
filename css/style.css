@@ -96,6 +96,8 @@ body {
 
 #music-nav {
 	color: ghostwhite;
+	font-size: 20px;
+	background-color: #373737;
 }
 
 .tab-pane {
