@@ -14,6 +14,9 @@
 		<!-- Optional Bootstrap theme -->
 		<link type="text/css" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css" rel="stylesheet"/>
 
+		<!--Josefin Slab Font-->
+		<link href='http://fonts.googleapis.com/css?family=Josefin+Slab:400,400italic,700' rel='stylesheet' type='text/css'>
+
 		<!--				 CUSTOM CSS-->
 		<link type="text/css" href="css/style.css" rel="stylesheet"/>
 
@@ -55,14 +58,14 @@
 				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 					<ul class="nav navbar-nav">
 						<li>
-								<a href="../../index.php">Home</a>
+								<a id="home" href="../../index.php">Home</a>
 						</li>
 						<li>
-								<a href="../../music/index.php">Music</a>
+								<a id="music" href="../../music/index.php">Music</a>
 
 						</li>
 						<li>
-								<a href="../../contact/index.php">Contact</a>
+								<a id="contact" href="../../contact/index.php">Contact</a>
 						</li>
 					</ul>
 				</div><!-- /.navbar-collapse -->
