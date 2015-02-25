@@ -15,7 +15,6 @@ body {
 	width: 100%;
 	/* Set the fixed height of the footer here */
 	height: 60px;
-	background-color: #373737;
 }
 
 .h1 {
@@ -46,8 +45,8 @@ body {
 }
 
 .navbar-btn {
-	margin-left: 10px;
-	margin-right: 10px;
+	margin-left: 100px;
+	margin-right: 100px;
 }
 
 .navbar{
@@ -109,4 +108,20 @@ body {
 		text-align: center;
 		line-height: 30px;
 	}
+}
+
+#soundcloud {
+	color: #FF6700;
+}
+
+#twitter{
+	color: #55ACEE;
+}
+
+#facebook {
+	color: #46629E;
+}
+
+.fa.pull-right{
+	margin-left: 30px;
 }
