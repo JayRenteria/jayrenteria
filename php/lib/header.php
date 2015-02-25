@@ -55,19 +55,14 @@
 				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 					<ul class="nav navbar-nav">
 						<li>
-							<p class="navbar-btn">
-								<a href="../../index.php" class="btn btn-default">Home</a>
-							</p>
+								<a href="../../index.php">Home</a>
 						</li>
 						<li>
-							<p class="navbar-btn">
-								<a href="../../music/index.php" class="btn btn-default">Music</a>
-							</p>
+								<a href="../../music/index.php">Music</a>
+
 						</li>
 						<li>
-							<p class="navbar-btn">
-								<a href="../../contact/index.php" class="btn btn-default">Contact</a>
-							</p>
+								<a href="../../contact/index.php">Contact</a>
 						</li>
 					</ul>
 				</div><!-- /.navbar-collapse -->

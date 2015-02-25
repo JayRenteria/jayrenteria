@@ -1,6 +1,5 @@
 <?php
 require_once("php/lib/header.php");
-require_once("php/lib/footer.php");
 ?>
 
 <div class="container">
@@ -60,3 +59,8 @@ require_once("php/lib/footer.php");
 				</div>
 			</div>
 		</div>
+
+
+<?php
+require_once("php/lib/footer.php");
+?>
