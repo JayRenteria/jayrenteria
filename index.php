@@ -40,6 +40,7 @@ require_once("php/lib/header.php");
 				</div>
 	</div>
 
+	<div class="container" id="main-page">
 		<div class="container">
 			<h1 class="h1">Jay Renteria</h1>
 		</div>
@@ -52,14 +53,14 @@ require_once("php/lib/header.php");
 					<p>My name is Jay, I play in a band called Rogues Beware and make more music on my own.</p>
 				</div>
 				<div class="col-md-1"></div>
-				<div class="col-md-6">
+				<div class="col-md-6" id="music-div">
 					<a id="music-button" class="btn btn-lg" href="music/index.php">
 						<i class="fa fa-headphones fa-2x pull-left"></i> Check Out My Music</a>
 
 				</div>
 			</div>
 		</div>
-
+	</div>
 
 <?php
 require_once("php/lib/footer.php");

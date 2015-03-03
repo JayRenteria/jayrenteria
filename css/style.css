@@ -44,6 +44,7 @@ body {
 	text-align: center;
 	line-height: 80px;
 	color: ghostwhite;
+
 }
 
 
@@ -163,4 +164,12 @@ body {
 
 .fa.pull-right{
 	margin-left: 30px;
+}
+
+#main-page{
+	background-color: #373737;
+	margin-top: 20px;
+	padding-bottom: 40px;
+	border-radius: 10px;
+
 }
