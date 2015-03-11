@@ -24,7 +24,7 @@ require_once("../php/lib/header.php");
 						<span class="glyphicon glyphicon-user" aria-hidden="true"></span>
 					</div>
 					<!-- text field input. pay attention to the id, placeholder text, type, and placeholder attributes -->
-					<input type="text" class="form-control" id="yourName" name="yourName" placeholder="Your name here." maxlength="150" />
+					<input type="text" class="form-control" id="yourName" name="yourName" placeholder="Your Name Here" maxlength="150" />
 				</div>
 			</div>
 
@@ -39,7 +39,7 @@ require_once("../php/lib/header.php");
 			</div>
 
 			<div class="form-group">
-				<label class="control-label" for="msg">Tell Us More About Yourself:</label>
+				<label class="control-label" for="msg">What's going on?:</label>
 				<textarea class="form-control" rows="5" id="msg" name="msg" maxlength="500" placeholder="500 characters max."></textarea>
 			</div>
 
