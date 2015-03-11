@@ -109,7 +109,37 @@ require_once("../php/lib/header.php");
 
 		<div class="tab-pane" id="sketches">
 			<h1>Sketches/WIP</h1>
-			<p>Testing Filler Text</p>
+
+			<div class="row">
+
+				<div class="col-md-5">
+					<!--				test music player-->
+					<p><iframe width="100%" height="450" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/169365158&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe></p>
+				</div>
+
+				<div class="col-md-2"></div>
+
+				<div class="col-md-5">
+					<p>Test</p>
+				</div>
+
+			</div>
+
+			<div class="row">
+
+				<div class="col-md-5">
+					<!--				test music player-->
+					<p><iframe width="100%" height="450" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/194491095&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe></p>
+				</div>
+
+				<div class="col-md-2"></div>
+
+				<div class="col-md-5">
+					<p>Test</p>
+				</div>
+
+			</div>
+
 		</div>
 	</div>
 
