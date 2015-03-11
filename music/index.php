@@ -13,13 +13,39 @@ require_once("../php/lib/header.php");
 		<li role="presentation"><a id="sketch-tab" href="#sketches" data-toggle="tab">Sketches/WIP</a></li>
 	</ul>
 
-	<div class="tab-content">
+	<div class="tab-content music-page">
 		<div class="tab-pane active" id="rogues">
-			<h1>Rogues Beware</h1>
-			<p>Testing Filler Text</p>
-			<div class="col-md-5">
+			<h1 class="music-h1">Rogues Beware</h1>
+			<div class="row">
+
+				<div class="col-md-5">
 <!--				test music player-->
-<!--				<p><iframe width="100%" height="450" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/153062282&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe></p>-->
+					<p><iframe width="100%" height="450" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/153062282&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe></p>
+				</div>
+
+				<div class="col-md-2"></div>
+
+				<div class="col-md-5">
+					<p>Test</p>
+				</div>
+
+			</div>
+
+			<br>
+
+			<div class="row">
+
+				<div class="col-md-5">
+					<!--				test music player-->
+					<p><iframe width="100%" height="450" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/187259033&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe></p>
+				</div>
+
+				<div class="col-md-2"></div>
+
+				<div class="col-md-5">
+					<p>Test</p>
+				</div>
+
 			</div>
 		</div>
 
@@ -29,8 +55,56 @@ require_once("../php/lib/header.php");
 		</div>
 
 		<div class="tab-pane" id="electronic">
-			<h1>Electronic</h1>
-			<p>Testing Filler Text</p>
+			<h1 class="music-h1">Electronic</h1>
+
+		<div class="row">
+
+			<div class="col-md-5">
+				<!--				test music player-->
+				<p><iframe width="100%" height="450" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/147142435&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe></p>
+			</div>
+
+			<div class="col-md-2"></div>
+
+			<div class="col-md-5">
+				<p>Test</p>
+			</div>
+
+		</div>
+
+		<br>
+
+		<div class="row">
+
+			<div class="col-md-5">
+				<!--				test music player-->
+				<p><iframe width="100%" height="450" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/147149973&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe></p>
+			</div>
+
+			<div class="col-md-2"></div>
+
+			<div class="col-md-5">
+				<p>Test</p>
+			</div>
+
+		</div>
+
+		<br>
+
+		<div class="row">
+
+			<div class="col-md-5">
+				<!--				test music player-->
+				<p><iframe width="100%" height="450" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/179864251&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe></p>
+			</div>
+
+			<div class="col-md-2"></div>
+
+			<div class="col-md-5">
+				<p>Test</p>
+			</div>
+
+		</div>
 		</div>
 
 		<div class="tab-pane" id="sketches">
@@ -41,6 +115,8 @@ require_once("../php/lib/header.php");
 
 	</div>
 </div>
+
+
 
 <?php
 require_once("../php/lib/footer.php");
