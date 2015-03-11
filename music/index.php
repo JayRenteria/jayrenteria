@@ -8,7 +8,7 @@ require_once("../php/lib/header.php");
 	<div class="content">
 	<ul id="music-nav" class="nav nav-tabs nav-justified navbar-inverse" data-tabs="tabs">
 		<li role="presentation" class="active"><a id="rog-tab" href="#rogues" data-toggle="tab">Rogues Beware</a></li>
-		<li role="presentation"><a id="metal-tab" href="#metal" data-toggle="tab">Metal</a></li>
+<!--		<li role="presentation"><a id="metal-tab" href="#metal" data-toggle="tab">Metal</a></li>-->
 		<li role="presentation"><a  id="elec-tab" href="#electronic" data-toggle="tab">Electronic</a></li>
 		<li role="presentation"><a id="sketch-tab" href="#sketches" data-toggle="tab">Sketches/WIP</a></li>
 	</ul>
@@ -48,11 +48,11 @@ require_once("../php/lib/header.php");
 
 			</div>
 		</div>
-
-		<div class="tab-pane" id="metal">
-			<h1>Metal</h1>
-			<p>Testing Filler Text</p>
-		</div>
+<!---->
+<!--		<div class="tab-pane" id="metal">-->
+<!--			<h1 class="music-h1">Metal</h1>-->
+<!--			<p>Testing Filler Text</p>-->
+<!--		</div>-->
 
 		<div class="tab-pane" id="electronic">
 			<h1 class="music-h1">Electronic</h1>
@@ -108,7 +108,7 @@ require_once("../php/lib/header.php");
 		</div>
 
 		<div class="tab-pane" id="sketches">
-			<h1>Sketches/WIP</h1>
+			<h1 class="music-h1">Sketches/WIP</h1>
 
 			<div class="row">
 
