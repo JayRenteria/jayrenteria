@@ -7,12 +7,14 @@ require_once("../php/lib/header.php");
 <div class="container">
 
 	<!-- The div class="form-wrap" is the black box containing the form. It's set to a column width of 12 for small screens, and a column width of 6 for medium screens on up -->
-	<div class="col-xs-12 col-md-6 form-wrap">
+	<div class="col-xs-12 col-md-12 form-wrap">
 
 		<h1 class="h1">Contact Me</h1>
 		<br>
+
+		<p class="content">You can contact me here about anything at all!</p>
 		<!-- Form is centered within it's container, and is set to 10 be columns wide RELATIVE TO IT'S CONTAINER, and offset to the right by one column. See classes: col-xs-offset-1 & col-xs-10 -->
-		<form method="get" action="#" id="sample-form" class="form-horizontal col-xs-10 col-xs-offset-1">
+		<form method="get" action="../php/send-mail/send-mail.php" id="sample-form" class="form-horizontal col-xs-10 col-xs-offset-1">
 
 			<div class="form-group">
 				<!-- Labels for each field are places within a <label> tag. Use the "for" attribute. the class="control-label" is for styling. -->
@@ -49,7 +51,6 @@ require_once("../php/lib/header.php");
 				<button type="submit" class="btn">Submit</button>
 			</div>
 		</form>
-		<h3><?php include "../php/send-mail/send-mail.php"?></h3>
 
 	</div> <!-- CLOSE FORM WRAP -->
 </div>
