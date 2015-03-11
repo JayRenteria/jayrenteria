@@ -8,7 +8,15 @@ body {
 	/* Margin bottom by footer height */
 	margin-bottom: 60px;
 	background-image: url("../images/background-compressed.jpg");
+	padding-top: 40px;
 }
+
+@media screen and (max-width: 768px) {
+	body {
+		padding-top: 0px;
+	}
+}
+
 
 
 .footer {
@@ -52,6 +60,7 @@ body {
 	margin-left: 100px;
 }
 
+
 #music{
 	font-family: 'Josefin Slab', serif;
 	font-weight: 700;
@@ -77,6 +86,12 @@ body {
 	margin-left: 200px;
 	margin-right: 200px;
 	color: ghostwhite;
+}
+
+@media screen and (max-width: 768px){
+	#home, #music, #contact {
+		margin: 0;
+	}
 }
 
 .navbar{
