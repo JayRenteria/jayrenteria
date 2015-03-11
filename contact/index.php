@@ -16,7 +16,7 @@ require_once("../php/lib/header.php");
 
 			<div class="form-group">
 				<!-- Labels for each field are places within a <label> tag. Use the "for" attribute. the class="control-label" is for styling. -->
-				<label for="inputName1" class="control-label">Name</label>
+				<label for="yourName" class="control-label">Name</label>
 				<!-- the div class="input-group" contains both the text field and the icon to the left -->
 				<div class="input-group">
 					<!-- this div and span contains the glyphicon to the left. aria-hidden is so that screen readers don't read this element -->
@@ -24,7 +24,7 @@ require_once("../php/lib/header.php");
 						<span class="glyphicon glyphicon-user" aria-hidden="true"></span>
 					</div>
 					<!-- text field input. pay attention to the id, placeholder text, type, and placeholder attributes -->
-					<input type="text" class="form-control" id="textName1" placeholder="Your name here." maxlength="150" />
+					<input type="text" class="form-control" id="yourName" name="yourName" placeholder="Your name here." maxlength="150" />
 				</div>
 			</div>
 
@@ -34,13 +34,13 @@ require_once("../php/lib/header.php");
 					<div class="input-group-addon">
 						<span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>
 					</div>
-					<input type="email" id="email1" class="form-control" maxlength="150" placeholder="your.email@something.com"/>
+					<input type="email" id="email1" name="email" class="form-control" maxlength="150" placeholder="your.email@something.com"/>
 				</div>
 			</div>
 
 			<div class="form-group">
-				<label class="control-label" for="txtareaComments">Tell Us More About Yourself:</label>
-				<textarea class="form-control" rows="5" id="txtareaComments" maxlength="500" placeholder="500 characters max."></textarea>
+				<label class="control-label" for="msg">Tell Us More About Yourself:</label>
+				<textarea class="form-control" rows="5" id="msg" name="msg" maxlength="500" placeholder="500 characters max."></textarea>
 			</div>
 
 			<div class="form-group">
@@ -49,6 +49,8 @@ require_once("../php/lib/header.php");
 				<button type="submit" class="btn">Submit</button>
 			</div>
 		</form>
+		<h3><?php include "../php/send-mail/send-mail.php"?></h3>
+
 	</div> <!-- CLOSE FORM WRAP -->
 </div>
 
