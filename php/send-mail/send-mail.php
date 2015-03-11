@@ -4,7 +4,7 @@ try {
 	if(!@isset($_POST['yourName']) || !@isset($_POST['email']) || !@isset($_POST['msg'])) {
 		throw new Exception('Form incomplete');
 	}
-	$name = filter_var($_POST['Yourname'], FILTER_SANITIZE_STRING);
+	$name = filter_var($_POST['yourName'], FILTER_SANITIZE_STRING);
 
 	$email = filter_var($_POST['email'], FILTER_SANITIZE_EMAIL);
 	$email = filter_var($email, FILTER_VALIDATE_EMAIL);
@@ -45,3 +45,5 @@ EOF;
 } catch(Exception $exception) {
 	echo "<p class=\"alert alert-danger\" role=\"alert\">Exception: " . $exception->getMessage() . "</p>";
 }
+
+header('Location: ../../contact/index.php');

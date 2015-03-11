@@ -14,7 +14,7 @@ require_once("../php/lib/header.php");
 
 		<p class="content">You can contact me here about anything at all!</p>
 		<!-- Form is centered within it's container, and is set to 10 be columns wide RELATIVE TO IT'S CONTAINER, and offset to the right by one column. See classes: col-xs-offset-1 & col-xs-10 -->
-		<form method="get" action="../php/send-mail/send-mail.php" id="sample-form" class="form-horizontal col-xs-10 col-xs-offset-1">
+		<form method="post" action="#" id="sample-form" class="form-horizontal col-xs-10 col-xs-offset-1">
 
 			<div class="form-group">
 				<!-- Labels for each field are places within a <label> tag. Use the "for" attribute. the class="control-label" is for styling. -->
@@ -36,7 +36,7 @@ require_once("../php/lib/header.php");
 					<div class="input-group-addon">
 						<span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>
 					</div>
-					<input type="email" id="email1" name="email" class="form-control" maxlength="150" placeholder="your.email@something.com"/>
+					<input type="email" id="email" name="email" class="form-control" maxlength="150" placeholder="your.email@something.com"/>
 				</div>
 			</div>
 
