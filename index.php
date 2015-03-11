@@ -9,21 +9,20 @@ require_once("php/lib/header.php");
 			<ol class="carousel-indicators">
 				<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
 				<li data-target="#carousel-example-generic" data-slide-to="1"></li>
-				<li data-target="#carousel-example-generic" data-slide-to="2"></li>
 			</ol>
 
 			<!-- Wrapper for slides -->
 			<div class="carousel-inner" role="listbox">
 				<div class="item active">
-					<img src="images/placeholder.jpg" alt="band photo 1">
+					<img src="images/fullband1.jpg" alt="band photo 1">
 					<div class="carousel-caption">
-						Warehouse 508 (Picture Coming Soon)
+						Warehouse 508
 					</div>
 				</div>
 				<div class="item">
-					<img src="images/placeholder.jpg" alt="band photo 2">
+					<img src="images/fullband2.jpg" alt="band photo 2">
 					<div class="carousel-caption">
-						Zinc (Picture Coming Soon)
+						Duke City Sound
 					</div>
 				</div>
 			</div>
