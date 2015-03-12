@@ -1,5 +1,10 @@
 <?php
+
+
+ini_set("include_path", '/home/jayrente/php:' . ini_get("include_path") );
+
 require_once("Mail.php");
+
 try {
 	if(!@isset($_POST['yourName']) || !@isset($_POST['email']) || !@isset($_POST['msg'])) {
 		throw new Exception('Form incomplete');
@@ -8,6 +13,7 @@ try {
 
 	$email = filter_var($_POST['email'], FILTER_SANITIZE_EMAIL);
 	$email = filter_var($email, FILTER_VALIDATE_EMAIL);
+
 	$message = filter_var($_POST['msg'], FILTER_SANITIZE_STRING);
 
 	// email the user with an activation message
@@ -17,7 +23,7 @@ try {
 	$headers = array();
 	$headers["To"] = $to;
 	$headers["From"] = $from;
-	$headers["Reply-To"] = $from;
+	$headers["Reply-To"] = $to;
 	$headers["Subject"] = "New Message from Personal Website";
 	$headers["MIME-Version"] = "1.0";
 	$headers["Content-Type"] = "text/html; charset=UTF-8";
