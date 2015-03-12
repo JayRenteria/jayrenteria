@@ -49,7 +49,9 @@ require_once("php/lib/header.php");
 			<div class="row2">
 				<div id="bottom-left-content" class="col-md-5">
 					<p>Developer by day, musician by night.</p>
-					<p>My name is Jay, I play in a band called Rogues Beware and make more music on my own.</p>
+					<p>My name is Jay, I play in a band called Rogues Beware and make more music on my own.
+					<br>
+					I also like to build things. I have a few web development projects going on and am always looking to take on more.</p>
 				</div>
 				<div class="col-md-1"></div>
 				<div class="col-md-6" id="music-div">

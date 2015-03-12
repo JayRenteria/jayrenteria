@@ -26,7 +26,9 @@ require_once("../php/lib/header.php");
 				<div class="col-md-2"></div>
 
 				<div class="col-md-5">
-					<p>Test</p>
+					<p>Rogues Beware - Laundry
+						<br>
+						This is the first song recorded by my band, the quality of the recording isnt too great as we were(are) still learning how to get a good sound by self producing.</p>
 				</div>
 
 			</div>
@@ -43,7 +45,9 @@ require_once("../php/lib/header.php");
 				<div class="col-md-2"></div>
 
 				<div class="col-md-5">
-					<p>Test</p>
+					<p>Rogues Beware - Seasons
+					<br>
+					This is the second song we have recorded, it is a little better in quality and is a more folky, surf-rocky, kind of song. Definitely the most different of all of our songs.</p>
 				</div>
 
 			</div>
@@ -67,7 +71,7 @@ require_once("../php/lib/header.php");
 			<div class="col-md-2"></div>
 
 			<div class="col-md-5">
-				<p>Test</p>
+				<p>Some electronic stuff that I pretend I know what I am doing with.</p>
 			</div>
 
 		</div>
@@ -84,7 +88,7 @@ require_once("../php/lib/header.php");
 			<div class="col-md-2"></div>
 
 			<div class="col-md-5">
-				<p>Test</p>
+				<p>Some electronic stuff that I pretend I know what I am doing with.</p>
 			</div>
 
 		</div>
@@ -101,7 +105,7 @@ require_once("../php/lib/header.php");
 			<div class="col-md-2"></div>
 
 			<div class="col-md-5">
-				<p>Test</p>
+				<p>Some electronic stuff that I pretend I know what I am doing with.</p>
 			</div>
 
 		</div>
@@ -120,7 +124,9 @@ require_once("../php/lib/header.php");
 				<div class="col-md-2"></div>
 
 				<div class="col-md-5">
-					<p>Test</p>
+					<p>Legend of Zelda: Ocarina of Time Theme on piano.
+					<br>
+					Right in the nostalgic feels.</p>
 				</div>
 
 			</div>
@@ -135,7 +141,7 @@ require_once("../php/lib/header.php");
 				<div class="col-md-2"></div>
 
 				<div class="col-md-5">
-					<p>Test</p>
+					<p>Really short test with a Periphery song played a little differently.</p>
 				</div>
 
 			</div>
