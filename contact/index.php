@@ -12,7 +12,7 @@ require_once("../php/lib/header.php");
 		<h1 class="h1">Contact Me</h1>
 		<br>
 
-		<p class="content">You can contact me here about anything at all!</p>
+		<p class="content">You can contact me at jay@jayrenteria.com about anything at all! Form currently disabled!</p>
 		<!-- Form is centered within it's container, and is set to 10 be columns wide RELATIVE TO IT'S CONTAINER, and offset to the right by one column. See classes: col-xs-offset-1 & col-xs-10 -->
 <!--		<form method="post" action="../php/send-mail/send-mail.php" id="sample-form" class="form-horizontal col-xs-10 col-xs-offset-1">-->
 <!---->
